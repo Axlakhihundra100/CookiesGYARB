@@ -1,0 +1,16 @@
+body { 
+    font-family: Arial, sans-serif; width: 360px; padding: 12px;
+}
+#cookies {
+    max-height: 320px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.cookie {
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+button {
+    margin-right: 6px;
+}

@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "CookiesGYARB",
+  "description": "Lists and saves cookies for my GYARB.",
+  "version": "0.1",
+  "icons": {
+
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "permissions": [
+    "storage",
+    "cookies",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
