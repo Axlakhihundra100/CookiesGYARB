@@ -1,0 +1,18 @@
+github: https://github.com/Axlakhihundra100/CookiesGYARB 
+16-09-2025, 
+öppnade vscode skapade en folder, main, samt filerna background, manifest, popup, popup, samt folder icons. Skapade även styles.css, och skrev background skapade manifest, skapade basic html och css kod för popupen, börjar med javascript koden nästa gång, 5 minuter kvar av lektionen, kommer bli lite tungt för mig att lära mig. Pushar till github, 
+Igenkänning: 16/09/25.
+
+
+19-09-2025
+skapade en ny folder, popup, där all js kod bör finnas samt allting som gör någonting liksom 
+länkar popup.html med popup.js som skript vilket betyder att man slipper lägga in flera scripts och att vi har ett script med undermoduler. alltså popup.js. skapade cookies.js, exporter.js, popup.css (oändrad) samt storage.js, la in rudamentary kod men ingenting fungerar. poängen är att popup.js använder cookies.js, storage.js och export.js. vilket är lite självtalande men poängen är att cookies fetchar cookies (hämtar), storage ska sava cookies, och export ska exportera cookies. MEN DET FUNGERAR INTE. Tyvärr. 
+igenkänning: 19/09/25
+
+23-09-2025
+va väldigt mycket jobb mellan 19de och 23de, sen glömde jag bort att pusha och logga koden tills nu (031225) men det kvittar. kodade dom.js , vilket är en liten grejsimojs som tar element av id lite snabbare än vad vanlig kod gör, man skriver bara $ så är det egentligen getelementbyid. 
+tog bort ALLT från popup.js och skrev om, refreshbtn; kör fetchcookies samt uppdaterar div för att displaya ifall det inte finns kakor står det popup om det finns popup skapar det som en stor textfil av alla kakor och joinar allt för display direkt i extensionen (oanvänd den är poop). popup.js; event listener+run för savebtn och exportbtn, kör savecookies samt exportcookies.
+export.js; simpel funktion för att installera kakorna som json fil, säger att det inte finns kakor om det inte finns några, gör snapshot till js, skapar en blob en sak som håller information (typ) i json format som ska i detta fall hålla txt info, skapar en url för blob, skapar en till länk som hänvises till blob, skapar ett namn för filen installerar sen vid click(), till sist revokar vi url. 
+
+06-03-2025
+Pushade koden ehhhhhhh :/, tänkte fixa lite kommentarer sedan så koden är förstårbar, har dock glömt hur det funkar så får ta och studera lite. Hoppas det inte finns några user specifik file paths :0. hihi 
